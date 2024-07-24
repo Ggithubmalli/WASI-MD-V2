@@ -58,6 +58,41 @@ Join our WhatsApp support group for assistance and discussions!
 # <a href="(https://replit.com/github/Itxxwasi/WASI-MD-V2"><img title="raplir" src="https://img.shields.io/badge/RAPLIT-h?color=green&style=for-the-badge&logo=msi"></a>
 # <a href="https://wasimd-9dedcea2edba.herokuapp.com/"><img title="koyeb" src="https://img.shields.io/badge/DEPLOY ON KYOEB-h?color=green&style=for-the-badge&logo=msi"></a>
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/OPU1WA?referralCode=RidRsW)
+
+
+#### COPY THESE COMMANDS AND PASTE IF YOU TRYING TO DEPLOY [WASI MD V2](https://github.com/Itxxwasi/WASI-MD-V2) ON ANY TERMINAL
+```
+sudo apt -y update && sudo apt -y upgrade
+```
+```
+sudo apt -y install git ffmpeg curl
+```
+```
+curl -fsSL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
+```
+```
+sudo -E bash nodesource_setup.sh
+```
+```
+sudo apt-get install -y nodejs
+```
+```
+sudo npm install -g yarn
+```
+```
+sudo yarn global add pm2
+```
+```
+git clone https://github.com/Itxxwasi/WASI-MD-V2 Itxxwasi
+cd Itxxwasi
+yarn install
+```
+```
+echo "SESSION_ID : ENTER YOUR SESSION ID HERE" > config.env
+```
+```
+pm2 start . --name Itxxwasi --attach --time
+```
 ### 𝕋ℍ𝔸ℕ𝕂𝕊 𝕋𝕆
  [`ASTROPED FOR PLUGINS `](https://github.com/astroped)
   [`ibrahim-tech-for-help`](https://github.com/ibrahimaitech)
